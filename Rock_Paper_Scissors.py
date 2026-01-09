@@ -36,10 +36,10 @@ while user_score < 3 and computer_score < 3:
     elif (user == "rock" and computer == "scissors") or \
          (user == "paper" and computer == "rock") or \
          (user == "scissors" and computer == "paper"):
-        print(Fore.GREEN + "Result: You win this round! 🎉")
+        print(Fore.GREEN + "Result: You win this round! ")
         user_score += 1
     else:
-        print(Fore.RED + "Result: Computer wins this round 😢")
+        print(Fore.RED + "Result: Computer wins this round ")
         computer_score += 1
 
     print(Fore.CYAN + f"\nScore -> You: {user_score} | Computer: {computer_score}")
@@ -50,8 +50,9 @@ while user_score < 3 and computer_score < 3:
 print(Fore.YELLOW + "\n===== Final Result =====")
 
 if user_score > computer_score:
-    print(Fore.GREEN + "🏆 You won the game! Great job!")
+    print(Fore.GREEN + " You won the game! Great job!")
 else:
-    print(Fore.RED + "💻 Computer won the game. Better luck next time!")
+    print(Fore.RED + " Computer won the game. Better luck next time!")
 
-print(Fore.CYAN + "\nThanks for playing! 👋")
+print(Fore.CYAN + "\nThanks for playing!")
+
